@@ -1,0 +1,70 @@
+.navbar-collapse { text-align: center; }
+
+#separator-ribbon{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+
+}
+#separator-ribbon .content{
+    width:150%;
+    height: 90px;
+    margin-left: -25%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+
+}
+div.tarjetas div div {   /*FUNCIONA tarjeta en general*/
+
+    background-color: rgb(119,89,67);
+  
+
+}
+div.tarjetas div.card-footer {   /*FUNCIONA borde final de la tarjeta  */
+
+    background-color:rgb(88,66,50);
+
+
+
+}
+div.tarjetas div div p{   /*FUNCIONA tamaño de la letra  general*/
+
+    color: #ffffff;
+    font-size: 1.5em;
+}
+div.tarjetas div div h5{   /*FUNCIONA tamaño  titulo*/
+
+    color: #ffffff;
+    font-size: 2em;
+    text-align:center;
+}
+
+#separator-ribbon div {    /* FUNCIONA cambia el color del separador a verde mas oscuro*/
+     background-color: rgb(11,101,55);
+    
+      
+}
+div.carrusel h5{
+    
+  font-style:Century Gothic;
+  font-size:4em;
+  
+
+}
+div.carrusel p{
+    
+  font-style:Century Gothic;
+ 
+  font-size:1em;
+  
+}
+
+
+
+
+
+
+
+
+
