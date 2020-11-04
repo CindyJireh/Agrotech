@@ -18,7 +18,7 @@
 div.tarjetas div div {   /*FUNCIONA tarjeta en general*/
 
     background-color: rgb(119,89,67);
-  
+
 
 }
 div.tarjetas div.card-footer {   /*FUNCIONA borde final de la tarjeta  */
@@ -31,40 +31,70 @@ div.tarjetas div.card-footer {   /*FUNCIONA borde final de la tarjeta  */
 div.tarjetas div div p{   /*FUNCIONA tamaño de la letra  general*/
 
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 0.9em;
 }
 div.tarjetas div div h5{   /*FUNCIONA tamaño  titulo*/
 
     color: #ffffff;
-    font-size: 2em;
+    font-size: 1.3em;
     text-align:center;
 }
 
 #separator-ribbon div {    /* FUNCIONA cambia el color del separador a verde mas oscuro*/
-     background-color: rgb(11,101,55);
-    
-      
+    background-color: rgb(11,101,55);
+
+
 }
 div.carrusel h5{
-    
-  font-style:Century Gothic;
-  font-size:4em;
-  
+
+    font-style:Century Gothic;
+    font-size:4em;
+
 
 }
 div.carrusel p{
-    
-  font-style:Century Gothic;
- 
-  font-size:1em;
-  
+
+    font-style:Century Gothic;
+
+    font-size:1em;
+
+}
+
+#piesep{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#piesep .content{
+    background: url(../Imgs/pie.jpg);
+    width: 110%;
+    height: 70px;
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius:  50%;
 }
 
 
+#pie{
+    background: url(../Imgs/pie.jpg);
+    background-repeat:repeat ; 
+    background-position: bottom center;
+    background-size: 100%;
+}
 
 
+#pie div { 
+    text-align: center; 
+    color: white;
+    font-style:Century Gothic;
+}
 
-
+#mision div div div h5{
+    text-align: center;  
+    padding: 70px 0px;
+    color:black;
+}
 
 
 
