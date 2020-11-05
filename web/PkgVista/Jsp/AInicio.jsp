@@ -9,7 +9,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <title>AGROTECH</title>
+        <title>Agrotech</title>
     </head>
 
     <body >
@@ -28,9 +28,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
                         <div class="navbar-nav w-100 justify-content-around">
-                            <a class="nav-item nav-link" href="../Jsp/AInicio.jsp"><b>INICIO</b></a>
-
-                            <li class="nav-item dropdown">
+                                                       <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <b>CULTIVOS</b> 
@@ -199,27 +197,9 @@
 
         <!-- FIN TARJETAS--> 
 
-
-        <!-- MISIÓN
-        <table class="table-success" >
-            <tbody>
-                <tr>
-                    <th scope="row">
-                        <img src="../Imgs/mision.jpg" atl="">
-                    </th>
-                    <td><h2><b>Misión</b></h2>   
-                        <h4>Nuewiuhfijheijfcijdnjkncjancjkncjnsxjnsckjxnzcjkznxjcnzxkjncksjxnckjsndkcnjksn jdwncf jkncjidnsjin odncvjsdbn 
-                            cijdkscn dskjcndsjkcbnjdbs jcndosljkcnsdjkncoadncksdnc ksdncsdkcnsklcndkjlcn  sd cnksdlxncjksdnco  o hwñdjckldsjcnd 
-                            kdofcjwdklsjcnkdslcnsdklcjnlsdkcnjdksnckdjsvnjkdsvbdkjsvndlskvnsdkl</h4>
-                    </td>
-                </tr>
-            </tbody>
-        </table>--> 
-        <!-- FIN VISIÓN--> 
-
+        <!--MISION Y VISION-->
         <section>
             <div class="container">
-
                 <div class="row" id="mision" >
                     <div class="col-md-6" >
                         <img src="../Imgs/mision.jpg" class="img-fluid" alt="laptop">
@@ -228,44 +208,37 @@
                         <br><br><br>
                         <font color="Olive" face="Century Gothic,arial" >
                         <h2 class="text-center"><b>Misión</b>  </h2></font>
-                        <h5 class="text-left">
-                            Nuewiuhfijheijfcijdnjkncjancjkncjnsxjnsckjxnzcjkznxj
-                            cijdkscn dskjcndsjkcbnjdbs jcndosljkcnsdjkncoadncksdnc
-                            ksdncsdkcnsklcndkjlcnkdofcjwdklsjcnkdslcnsdklcjnlsdkcn
-                            jdksnckdjsvnjkdsvbdkjsvndlskvnsdkl
+                        <h5 class="text-center">
+                            Crear un aplicativo web que intervenga como una herramienta de apoyo para agricultores, profesionales del agro o personas que deseen incursionar en este medio; teniendo en cuenta variables como características del cultivo, plagas, productos recomendados, clima y demás elementos relacionados a los cultivos a profundizar (Mora y fríjol). 
                         </h5>
-
                     </div>
                 </div>
 
                 <div class="row" id="vision" >
                     <div class="col-md-6" >                       
-                           <font color="Olive" face="Century Gothic,arial" >   
-                           <br><br><br>
+                        <font color="Olive" face="Century Gothic,arial" >   
+                        <br><br><br>
                         <h2 class="text-center"><b>Visión</b>  </h2></font>
-                        <h5 class="text-right">
-                            Nuewiuhfijheijfcijdnjkncjancjkncjnsxjnsckjxnzcjkznxj
-                            cijdkscn dskjcndsjkcbnjdbs jcndosljkcnsdjkncoadncksdnc
-                            ksdncsdkcnsklcndkjlcnkdofcjwdklsjcnkdslcnsdklcjnlsdkcn
-                            jdksnckdjsvnjkdsvbdkjsvndlskvnsdkl
+                        <h5 class="text-center">
+                            Se pretende que el aplicativo web Agrotech tenga un mayor alcance, haciendo partícipes cultivos no solo del municipio de Fusagasugá sino de la región del Sumapaz, generando una mayor cobertura de la propuesto para así mismo adquirir un papel cada vez mas relevante en la zona. 
                         </h5>
-                       
+
                     </div>
                     <div class="col-md-6" >                      
-                      <img src="../Imgs/vision.jpg" class="img-fluid" alt="laptop">
+                        <img src="../Imgs/vision.jpg" class="img-fluid" alt="laptop">
                     </div>
                 </div>
 
             </div>
         </section>
-
+        <!--FIN DE MISION Y VISION-->
 
 
         <!--AGROFORO-->    
         <div class="h1 w-100 justify-content-center">
             <div class="btn-flotantex">
                 <div class="fixed-bottom">
-                    <a href="https://www.google.com" target="_blank">
+                    <a href="../Jsp/Preguntas.jsp" target="_blank">
                         <img src="../Imgs/foro.png" alt="">
                     </a>
                 </div>

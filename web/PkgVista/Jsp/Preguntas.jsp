@@ -6,13 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="../Estilos/estilos.css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <title>Agrotech - Plagas</title>
+        <!--select 2-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" /> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+
+
+        <title>Agrotech - Agroforo</title>
     </head>
 
-    <body>
+    <body> 
+
         <!--MENÚ-->
         <header class="header">
             <font  face="Century Gothic" size=3>
@@ -27,7 +35,6 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
                         <div class="navbar-nav w-100 justify-content-around">
-                         
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
@@ -63,30 +70,33 @@
                 </nav>
             </div>
             </font>
-        </header><br><br><br><br>
+        </header><br><br><br><br><br>
         <!--FIN DEL MENÚ-->
 
 
-       <font color="Olive" face="Century Gothic,arial" >
-        <h1 class="text-center" ><b>Plagas</b></h1> </font>
+        <!--DESARROLLO-->
+        <font color="Olive" face="Century Gothic,arial" size=3>
+        <h1 class="text-center" ><b>AGROFORO</b></h1><br></font>
 
-        <!--AGROFORO-->    
-    <section> 
-        <div class="h1 w-100 justify-content-center">
-            <div class="btn-flotantex">
-                <div class="fixed-bottom">
-                    <a href="../Jsp/Preguntas.jsp" target="_blank">
-                        <img src="../Imgs/foro.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </div> </section>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action disabled text-center ">
+                <font color="Olive" face="Century Gothic,arial" size=5>
+                <b>Lista de preguntas</b></font>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action text-center" >Pregunta No. 1: </a>
+            <a href="#" class="list-group-item list-group-item-action text-center">Pregunta No. 2: </a>
+            <a href="#" class="list-group-item list-group-item-action text-center">Pregunta No. 3: </a>
+            
+        </div>
 
 
-    <!--FIN DEL AGROFORO-->   
+
+
+
 
         <!--PIE DE PAG-->  
         <footer>
+            <br><br><br>
             <div id="piesep" >
                 <div class="content bg-success">
                 </div>
@@ -106,5 +116,8 @@
                                 </div>
                                 </div>     
                                 </footer>
-     </body>
-    </html>
+
+                                </body>
+                                </html>
+
+
