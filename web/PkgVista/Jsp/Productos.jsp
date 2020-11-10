@@ -1,4 +1,6 @@
+<%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,9 +16,16 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" /> 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
 
+        <%@page  import = "PkgControlador.*" %>
+        <%@page  import = "PkgModelo.*" %>
+        <% Busquedas bus = new Busquedas();%>
+        <%ArrayList<Cultivos> listacultivo = new ArrayList<>();%>
+        <% listacultivo = bus.ListarCultivos();%>
 
+        <%ArrayList<Tipoproducto> listatipos = new ArrayList<>();%>
+        <% listatipos = bus.ListarTiposdeproducto();%>
 
-              <title>Agrotech - Productos</title>
+        <title>Agrotech - Productos</title>
     </head>
 
     <body> 
@@ -35,7 +44,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
                         <div class="navbar-nav w-100 justify-content-around">
-                            
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -81,32 +90,56 @@
 
         <section>
             <div class="container">
-                <div class="row" id="mision" >
-                    <!--dropdown con barra cultivos-->
-                    <div class="col-md-6" >      
-                        <div style="text-align: center;"><br><br>
-                            <h5>Seleccione el cultivo a tratar</h5>
-                            <select id="mibuscadorcul"  style="width: 50%">              
-                                <option> - - - - </option>
-                                <option>Mora</option>
-                                <option>Fríjol</option>
-                            </select>
+                <form name="f1" method="get" action="#">
+                    <!--fila 1 SELECT-->
+                    <div class="row" id="selectores" >
+                        <!--dropdown con barra cultivos-->
+                        <div class="col-md-6" >      
+                            <div style="text-align: center;"><br><br>
+                                <h5>Seleccione el cultivo a tratar</h5>
+                                <select id="mibuscadorcul" name="mibuscadorcul"  style="width: 50%"> 
+                                    <option selected></option>
+                                    <% for (int i = 0; i < listacultivo.size(); i++) { %>
+                                    <option>
+                                        <%out.print(listacultivo.get(i).getNombrecultivo());%>                                  
+                                    </option> <%}%>                                   
+                                </select> 
+
+                            </div>
+                        </div>
+
+                        <!--dropdown con barra acción-->
+                        <div class="col-md-6" style= "margin:50px 0;"> 
+                            <div style="text-align: center;">
+                                <h5>Seleccione el tipo de producto</h5>
+                                <select id="mibuscadortip" name="mibuscadortip" style="width: 50%">              
+                                    <option selected></option>
+                                    <% for (int i = 0; i < listatipos.size(); i++) { %>
+                                    <option>
+                                        <%out.print(listatipos.get(i).getNombretipoproducto());%>                                  
+                                    </option> <%}%>
+                                </select>
+                            </div>
                         </div>
                     </div>
-                    <!--dropdown con barra acción-->
-                    <div class="col-md-6" style= "margin:50px 0;"> 
-                        <div style="text-align: center;">
-                            <h5>Seleccione el tipo de producto</h5>
-                            <select id="mibuscadortip"  style="width: 50%">              
-                                <option> - - - - </option>
-                                <option>Abono</option>
-                                <option>Herbicida</option>
-                                <option>Fungicida</option>
-                                <option>Rodenticida</option>
-                            </select>
-                        </div>
+                    <!--fila 2 BOTÓN-->
+                    <div class="row" id="btncnsultar" >
+                        <div class="col text-center">                        
+                            <input type="submit" name="submit" value="Consultar" class="btn btn-outline-dark" >
+                        </div>   
                     </div>
-                </div>
+                </form>
+                <%  String cu = request.getParameter("mibuscadorcul");
+                    String ti = request.getParameter("mibuscadortip");
+                    if (cu.equals("") || ti.equals("")) {%>
+                <br><h6 class="h6 text-center text-success m">Debe seleccionar un cultivo y un tipo de producto</h6>
+                <% }
+                    if (!cu.equals("") && !ti.equals("")) {%>
+                <br><h6 class="h6 text-center text-success m">El cultivo seleccionado fue: <%=cu + ""%>, con el tipo de producto:  <%=ti + ""%></h6><%
+                    
+                    
+                    }
+                %>
             </div>
         </section>
 
@@ -140,26 +173,28 @@
             <div class="container">
                 <font face="Century Gothic">
                 <h1 class="h4">Software Agrotech</h1>
-                <h3 class="h6">Equipo de desarrollo
-                    <h3 class="h6">Estudiantes de la Universidad de Cundinamarca - Sede Fusagasugá</h3><br>
-                    <h3 class="h6">Ruth Catherine Acosta Macana
-                        <h3 class="h6"> Mónica Yisel Beltrán Gómez 
-                            <h3 class="h6"> Cindy Jireh Gianine Pachón</h3><br>
-                            <h3 class="h6">Noviembre del 2020</h3><br>
-                            </font>
+                <h3 class="h6">Equipo de desarrollo</h3>
+                <h3 class="h6">Estudiantes de la Universidad de Cundinamarca - Sede Fusagasugá</h3><br>
+                <h3 class="h6">Ruth Catherine Acosta Macana</h3>
+                <h3 class="h6"> Mónica Yisel Beltrán Gómez </h3>
+                <h3 class="h6"> Cindy Jireh Gianine Pachón</h3><br>
+                <h3 class="h6">Noviembre del 2020</h3><br>
+                </font>
 
-                            </div>
-                            </div>     
-                            </footer>
+            </div>
+        </div>     
+    </footer>
 
-                            </body>
-                            </html>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#mibuscadorcul').select2();
+        });
+        $(document).ready(function () {
+            $('#mibuscadortip').select2();
+        });
+    </script>
+</body>
 
-                            <script type="text/javascript">
-                                $(document).ready(function () {
-                                    $('#mibuscadorcul').select2();
-                                });
-                                $(document).ready(function () {
-                                    $('#mibuscadortip').select2();
-                                });
-                            </script>
+</html>
+
+

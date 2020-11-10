@@ -20,7 +20,7 @@
             <div class="fixed-top" >
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
                     <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark   sticky-top" -->
-                    <a class="text-center" class="navbar-brand"href="../Jsp/AInicio.jsp"><img src="../Imgs/agrotechs.png"></a>
+                    <a class="text-center" class="navbar-brand"href="../Jsp/AInicio.jsp"><img src="../Imgs/centroblanco.png"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
                             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
