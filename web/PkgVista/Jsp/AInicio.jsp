@@ -20,13 +20,12 @@
             <div class="fixed-top" >
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
                     <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark   sticky-top" -->
-                    <a class="text-center" class="navbar-brand"href="../Jsp/AInicio.jsp"><img src="../Imgs/centroblanco.png"></a>
+                    <a id="logo" class="text-center" class="navbar-brand"href="../Jsp/AInicio.jsp"><img src="../Imgs/paint.png"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
                             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-
                         <div class="navbar-nav w-100 justify-content-around">
                                                        <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
@@ -53,7 +52,7 @@
                                 </div>
                             </li>
 
-                            <a class="nav-item nav-link" href="../Jsp/Plagas.jsp"><b>PLAGAS</b></a>
+                            <a class="nav-item nav-link" href="../Jsp/Plagas.jsp"><b>PLAGAS Y ENFERMEDADES</b></a>
                             <a class="nav-item nav-link" href="../Jsp/Clima.jsp"><b>CLIMA</b></a>
 
                         </div>
@@ -200,7 +199,7 @@
         <!--MISION Y VISION-->
         <section>
             <div class="container">
-                <div class="row" id="mision" >
+                <div class="row justifity-content-center" id="mision" >
                     <div class="col-md-6" >
                         <img src="../Imgs/mision.jpg" class="img-fluid" alt="laptop">
                     </div>
@@ -214,7 +213,7 @@
                     </div>
                 </div>
 
-                <div class="row" id="vision" >
+                <div class="row justifity-content-center" id="vision" >
                     <div class="col-md-6" >                       
                         <font color="Olive" face="Century Gothic,arial" >   
                         <br><br><br>

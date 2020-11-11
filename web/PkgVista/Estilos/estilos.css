@@ -1,4 +1,7 @@
 .navbar-collapse { text-align: center; }
+#logo{ text-align: center; }
+
+
 
 #separator-ribbon{
     width:100%;
@@ -84,6 +87,9 @@ div.carrusel p{
 }
 
 
+
+
+
 #pie div { 
     text-align: center; 
     color: white;
@@ -96,5 +102,10 @@ div.carrusel p{
     color:black;
 }
 
+
+
+
+
+/**/
 
 

@@ -11,7 +11,7 @@ public class ConexionBDPostgreSQL {
     private Connection conexion = null;
     private static final String usuario = "postgres";
     private static final String contraseña = "161218123";
-    private String url = "jdbc:postgresql://localhost:5432/agro";
+    private String url = "jdbc:postgresql://localhost:5432/agrob";
     private String driverdb = "org.postgresql.Driver";
 
     public Connection conectar() {

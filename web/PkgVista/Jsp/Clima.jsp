@@ -9,17 +9,17 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <title>Agrotech - Plagas</title>
+        <title>Agrotech - Climas</title>
     </head>
 
     <body>
-        <!--MENÚ-->
+               <!--MENÚ-->
         <header class="header">
             <font  face="Century Gothic" size=3>
             <div class="fixed-top" >
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
                     <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark   sticky-top" -->
-                    <a class="text-center" class="navbar-brand"href="../Jsp/AInicio.jsp"><img src="../Imgs/agrotechs.png"></a>
+                    <a class="text-center" class="navbar-brand"href="../Jsp/AInicio.jsp"><img src="../Imgs/paint.png"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
                             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -27,9 +27,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
                         <div class="navbar-nav w-100 justify-content-around">
-                         
-
-                            <li class="nav-item dropdown">
+                                                       <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <b>CULTIVOS</b> 
@@ -54,7 +52,7 @@
                                 </div>
                             </li>
 
-                            <a class="nav-item nav-link" href="../Jsp/Plagas.jsp"><b>PLAGAS</b></a>
+                            <a class="nav-item nav-link" href="../Jsp/Plagas.jsp"><b>PLAGAS Y ENFERMEDADES</b></a>
                             <a class="nav-item nav-link" href="../Jsp/Clima.jsp"><b>CLIMA</b></a>
 
                         </div>
@@ -65,7 +63,6 @@
             </font>
         </header><br><br><br><br>
         <!--FIN DEL MENÚ-->
-
 
        <font color="Olive" face="Century Gothic,arial" >
         <h1 class="text-center" ><b>Clima</b></h1> </font>
