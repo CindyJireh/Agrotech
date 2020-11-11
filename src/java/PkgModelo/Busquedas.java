@@ -31,10 +31,8 @@ public class Busquedas {
                 do {
                     Cultivos cultivos = new Cultivos();
                     cultivos.setIdcultivo(resultado.getInt("idcultivo"));
-                    cultivos.setNombrecultivo(resultado.getString("nombrecultivo"));
-                    cultivos.setResena(resultado.getString("reseña"));
+                    cultivos.setNombrecultivo(resultado.getString("nombrecomuncultivo"));
                     Listadecultivos.add(cultivos);
-                    System.out.println("si");
                 } while (resultado.next());
             }
 
