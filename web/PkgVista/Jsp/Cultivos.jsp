@@ -10,8 +10,8 @@
         <jsp:include page="cabecera/librerias.jsp" ></jsp:include> 
             <title>Agrotech - Cultivos</title>
             <link rel="stylesheet" type="text/css" href="est.css"/> 
-            <!--            <link rel="stylesheet" type="text/css" href="zoom.css"/>-->
-            
+            <link rel="stylesheet" type="text/css" href="e_1.css"/>
+
         <%Busquedas bus = new Busquedas();%>
         <%Busquedascul busc = new Busquedascul();%>
 
@@ -140,10 +140,11 @@
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" style="background-color: rgb(232,246,231);">
                         <div class="card-body" >
                             <font color="black" face="Century Gothic,arial" size=4>
-                            <p class="text-center" >                               
+                            <p class="text-center" >  
+                                <font color="#19534B" face="Rockwell,arial" >
                                 <b> Para cultivar plantas de frijol sanas se debe  comenzar con una correcta selección de  semillas sanas, se recomienda sembrar semillas de frijol certificadas o seleccionadas de las mejores plantas del cultivo. 
-                                Se debe evitar completamente  las semillas de frijol de mala calidad (arrugadas, gorgojeadas, manchas diferentes al color natural, partidas o pequeñas)  ya que pueden contener hongos o bacterias que causan enfermedades que no se tienen en los campos o zonas de cultivo. Además, las semillas de frijol de mala calidad también producen plantas  las cuales son atacadas más temprano y más fácilmente por las plagas y  demás enfermedades haciendo más difícil y costoso su control.
-                                </b>
+                                    Se debe evitar completamente  las semillas de frijol de mala calidad (arrugadas, gorgojeadas, manchas diferentes al color natural, partidas o pequeñas)  ya que pueden contener hongos o bacterias que causan enfermedades que no se tienen en los campos o zonas de cultivo. Además, las semillas de frijol de mala calidad también producen plantas  las cuales son atacadas más temprano y más fácilmente por las plagas y  demás enfermedades haciendo más difícil y costoso su control.
+                                </b></font><br><br>
                                 <font color="olive" face="Rockwell,arial" >
                             <h2 class="text-center"><b>Características</b></h2>            
                             </font>
@@ -152,12 +153,12 @@
                                 2. Selección de semilla:  buen aspecto, lo cual hace referencia a que no tenga arrugas, manchas o estén partidas. 
                                 3. Cantidad de semillas para sembrar por hectárea: La siembra se debe realizar en suelo húmedo, depositando 4 a 6 semillas por metro lineal en surcos de 50 a 60 cm, lo anterior se logra con 30 a 50 kg de semilla.
                             </p>
-                                
-                        </p>
-                            <div class="container">
-                                <div class="inner text-center" id="img-contenedor">
-                                    <img class="card-img-top" width="900" height="300" src="https://www.goredforwomen.org/-/media/images/healthy-living/healthy-eating/makingbeansfromscratch.240jpg?h=416&w=740&la=en&hash=B78A01B57310FD3C0B3C9CD417DB1D059C046D87" >
-                                </div> </div>
+
+                            </p>
+
+                            <div class="inner text-center" id="img-contenedor">
+                                <img width="800" height="400" src="https://www.goredforwomen.org/-/media/images/healthy-living/healthy-eating/makingbeansfromscratch.240jpg?h=416&w=740&la=en&hash=B78A01B57310FD3C0B3C9CD417DB1D059C046D87" >
+                            </div> 
                             </p> </font>
 
                         </div>
@@ -176,6 +177,25 @@
                         <div class="card-body">
                             <font color="black" face="Century Gothic,arial" size=4>
                             <p class="text-center" >
+                                <font color="#19534B" face="Rockwell,arial" >
+                                <b> Para cultivar plantas de frijol sanas se debe  comenzar con una correcta selección de  semillas sanas, se recomienda sembrar semillas de frijol certificadas o seleccionadas de las mejores plantas del cultivo. 
+                                    Se debe evitar completamente  las semillas de frijol de mala calidad (arrugadas, gorgojeadas, manchas diferentes al color natural, partidas o pequeñas)  ya que pueden contener hongos o bacterias que causan enfermedades que no se tienen en los campos o zonas de cultivo. Además, las semillas de frijol de mala calidad también producen plantas  las cuales son atacadas más temprano y más fácilmente por las plagas y  demás enfermedades haciendo más difícil y costoso su control.
+                                </b></font><br><br>
+                                <font color="green" face="Rockwell,arial" >
+                            <h2 class="text-center"><b>Subetapa</b></h2>            
+                            </font>
+                            <div class="container">
+                                <font color="olive" face="Rockwell,arial" >
+                                <h4 class="text-left"><b>Tipo característica</b></h4>            
+                                </font>
+                                <p>
+                                    zxnm m,zxnm, n nzkxj njkc Comtendijdjsc k kl 
+                                    dfsvbfsdbdfbgdngdxsnxsnmxjnmxxjnxsjhc aicjdashncjksdcjkjncjnndjs                                
+                                </p> </div>
+                            <div class="inner text-center" id="img-contenedor">
+                                <img width="800" height="400" src="https://www.goredforwomen.org/-/media/images/healthy-living/healthy-eating/makingbeansfromscratch.240jpg?h=416&w=740&la=en&hash=B78A01B57310FD3C0B3C9CD417DB1D059C046D87" >
+                            </div> 
+
 
                             </p> </font>
 
@@ -193,9 +213,29 @@
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="background-color: rgb(232,246,231);">
                         <div class="card-body">
-                            <font color="black" face="Century Gothic,arial" size=4>
-                            <p class="text-center" >Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> </font>
+                          <font color="black" face="Century Gothic,arial" size=4>
+                            <p class="text-center" >
+                                <font color="#19534B" face="Rockwell,arial" >
+                                <b> Para cultivar plantas de frijol sanas se debe  comenzar con una correcta selección de  semillas sanas, se recomienda sembrar semillas de frijol certificadas o seleccionadas de las mejores plantas del cultivo. 
+                                    Se debe evitar completamente  las semillas de frijol de mala calidad (arrugadas, gorgojeadas, manchas diferentes al color natural, partidas o pequeñas)  ya que pueden contener hongos o bacterias que causan enfermedades que no se tienen en los campos o zonas de cultivo. Además, las semillas de frijol de mala calidad también producen plantas  las cuales son atacadas más temprano y más fácilmente por las plagas y  demás enfermedades haciendo más difícil y costoso su control.
+                                </b></font><br><br>
+                                <font color="green" face="Rockwell,arial" >
+                            <h2 class="text-center"><b>Subetapa</b></h2>            
+                            </font>
+                            <div class="container">
+                                <font color="olive" face="Rockwell,arial" >
+                                <h4 class="text-left"><b>Tipo característica</b></h4>            
+                                </font>
+                                <p>
+                                    zxnm m,zxnm, n nzkxj njkc Comtendijdjsc k kl 
+                                    dfsvbfsdbdfbgdngdxsnxsnmxjnmxxjnxsjhc aicjdashncjksdcjkjncjnndjs                                
+                                </p> </div>
+                            <div class="inner text-center" id="img-contenedor">
+                                <img width="800" height="400" src="https://www.goredforwomen.org/-/media/images/healthy-living/healthy-eating/makingbeansfromscratch.240jpg?h=416&w=740&la=en&hash=B78A01B57310FD3C0B3C9CD417DB1D059C046D87" >
+                            </div> 
 
+
+                            </p> </font>
                         </div>
                     </div>
                 </div>
@@ -210,9 +250,29 @@
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion" style="background-color: rgb(232,246,231);">
                         <div class="card-body">
-                            <font color="black" face="Century Gothic,arial" size=4>
-                            <p class="text-center" >Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> </font>
+                         <font color="black" face="Century Gothic,arial" size=4>
+                            <p class="text-center" >
+                                <font color="#19534B" face="Rockwell,arial" >
+                                <b> Para cultivar plantas de frijol sanas se debe  comenzar con una correcta selección de  semillas sanas, se recomienda sembrar semillas de frijol certificadas o seleccionadas de las mejores plantas del cultivo. 
+                                    Se debe evitar completamente  las semillas de frijol de mala calidad (arrugadas, gorgojeadas, manchas diferentes al color natural, partidas o pequeñas)  ya que pueden contener hongos o bacterias que causan enfermedades que no se tienen en los campos o zonas de cultivo. Además, las semillas de frijol de mala calidad también producen plantas  las cuales son atacadas más temprano y más fácilmente por las plagas y  demás enfermedades haciendo más difícil y costoso su control.
+                                </b></font><br><br>
+                                <font color="green" face="Rockwell,arial" >
+                            <h2 class="text-center"><b>Subetapa</b></h2>            
+                            </font>
+                            <div class="container">
+                                <font color="olive" face="Rockwell,arial" >
+                                <h4 class="text-left"><b>Tipo característica</b></h4>            
+                                </font>
+                                <p>
+                                    zxnm m,zxnm, n nzkxj njkc Comtendijdjsc k kl 
+                                    dfsvbfsdbdfbgdngdxsnxsnmxjnmxxjnxsjhc aicjdashncjksdcjkjncjnndjs                                
+                                </p> </div>
+                            <div class="inner text-center" id="img-contenedor">
+                                <img width="800" height="400" src="https://www.goredforwomen.org/-/media/images/healthy-living/healthy-eating/makingbeansfromscratch.240jpg?h=416&w=740&la=en&hash=B78A01B57310FD3C0B3C9CD417DB1D059C046D87" >
+                            </div> 
 
+
+                            </p> </font>
                         </div>
                     </div>
                 </div>
@@ -228,9 +288,29 @@
                     </div>
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion" style="background-color: rgb(232,246,231);">
                         <div class="card-body">
-                            <font color="black" face="Century Gothic,arial" size=4>
-                            <p class="text-center" >Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> </font>
+                           <font color="black" face="Century Gothic,arial" size=4>
+                            <p class="text-center" >
+                                <font color="#19534B" face="Rockwell,arial" >
+                                <b> Para cultivar plantas de frijol sanas se debe  comenzar con una correcta selección de  semillas sanas, se recomienda sembrar semillas de frijol certificadas o seleccionadas de las mejores plantas del cultivo. 
+                                    Se debe evitar completamente  las semillas de frijol de mala calidad (arrugadas, gorgojeadas, manchas diferentes al color natural, partidas o pequeñas)  ya que pueden contener hongos o bacterias que causan enfermedades que no se tienen en los campos o zonas de cultivo. Además, las semillas de frijol de mala calidad también producen plantas  las cuales son atacadas más temprano y más fácilmente por las plagas y  demás enfermedades haciendo más difícil y costoso su control.
+                                </b></font><br><br>
+                                <font color="green" face="Rockwell,arial" >
+                            <h2 class="text-center"><b>Subetapa</b></h2>            
+                            </font>
+                            <div class="container">
+                                <font color="olive" face="Rockwell,arial" >
+                                <h4 class="text-left"><b>Tipo característica</b></h4>            
+                                </font>
+                                <p>
+                                    zxnm m,zxnm, n nzkxj njkc Comtendijdjsc k kl 
+                                    dfsvbfsdbdfbgdngdxsnxsnmxjnmxxjnxsjhc aicjdashncjksdcjkjncjnndjs                                
+                                </p> </div>
+                            <div class="inner text-center" id="img-contenedor">
+                                <img width="800" height="400" src="https://www.goredforwomen.org/-/media/images/healthy-living/healthy-eating/makingbeansfromscratch.240jpg?h=416&w=740&la=en&hash=B78A01B57310FD3C0B3C9CD417DB1D059C046D87" >
+                            </div> 
 
+
+                            </p> </font>
                         </div>
                     </div>
                 </div>
