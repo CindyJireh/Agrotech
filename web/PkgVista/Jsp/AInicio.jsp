@@ -2,19 +2,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" type="text/css" href="../Estilos/estilos.css"/>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <jsp:include page="cabecera/librerias.jsp" ></jsp:include> 
+
         <title>Agrotech</title>
     </head>
 
-    <body >
+    <body  >
 
-        <!--MENÚ-->
         <header class="header">
             <font  face="Century Gothic" size=3>
             <div class="fixed-top" >
@@ -27,19 +21,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav w-100 justify-content-around">
-                                                       <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <b>CULTIVOS</b> 
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#"><b>Mora</b></a>
-                                    <a class="dropdown-item" href="../Jsp/cultivo_Frijol.jsp"><b>Frijol</b></a>
-
-                                </div>
-                            </li>
-
-                            </li>
+                            <a class="nav-item nav-link" href="../Jsp/Cultivos.jsp"><b>CULTIVOS</b></a>
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
@@ -61,7 +43,7 @@
                 </nav>
             </div>
             </font>
-        </header><br><br><br>
+        </header><br><br>
         <!--FIN DEL MENÚ-->
 
 
@@ -73,46 +55,52 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
             </ol>
-            <div class="carrusel">
-                <div class="carousel-inner">
+            <div class="carrusel text-light bg-dark">
+                <font color="Olive" face="Rockwell,arial" size="4" >
+                <div class="carousel-inner ">
                     <div class="carousel-item active">
-                        <img src="../Imgs/morita.png" class="d-block w-100" alt="...">
+                        <img src="../Imgs/Mora1.png" class="d-block w-100" alt="..." width=1198 height=390>
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Importancia de obtener conocimientos agrícolas sobre el Frijol </h5>
-
-
-
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h5 ><b>¿SABÍAS QUÉ?</b></h5>
+                            <p class="h1"><b > La mora, a diferencia de otras muchas frutas, no continúa madurando una vez que se recoge de la planta. Por tanto, si tienes alguna zarza a mano, recuerda que solo podrás recoger la fruta en el momento preciso. </b></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../Imgs/frijol2.png" class="d-block w-100" alt="...">
+                        <img src="../Imgs/FRIJOL.png" class="d-block w-100" alt="..." width=1198 height=390>
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h5><b>¿SABÍAS QUÉ?</b></h5>
+                            <p class=""><b>Las hojas de las plantas de frijol son heliotrópicas; es decir, se mueven a lo largo del día para mantenerse orientadas directamente hacia el sol.</b></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../Imgs/morita2.png" class="d-block w-100" alt="...">
+                        <img src="../Imgs/PRUEBA.png" class="d-block w-100" alt="..." width=1198 height=390>
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h5><b>¿SABÍAS QUÉ?</b></h5>
+                            <p ><b>De la mora procede el nombre que se le da al color morado. Igualmente también de su nombre procede el término moretón o morado, usado para referirnos a los hematomas.</b></p>
                         </div>
 
                     </div>
                     <div class="carousel-item">
-                        <img src="../Imgs/cargafri2.png" class="d-block w-100" alt="...">
+                        <img src="../Imgs/frijolito.png" class="d-block w-100" alt="..." width=1198 height=390>
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h5><b>¿SABÍAS QUÉ?</b></h5>
+                            <p><b>Son uno de los alimentos más completos debido a que los frijoles contienen muchas proteínas y junto con el maíz, se forman todos los aminoácidos que requiere el cuerpo humano.</b></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../Imgs/frijol3.png" class="d-block w-100" alt="...">
+                        <img src="../Imgs/morita.png" class="d-block w-100" alt="..." width=1198 height=390>
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h5><b>¿SABÍAS QUÉ?</b></h5>
+                            <p ><b>Sí, estas leyendo bien, la mora contiene más vitamina C que las naranjas, y también es muy rica en fibra y antioxidantes. Hoy en día explotamos estas propiedades, aunque en el pasado ya se usaba para lavarse los dientes y el ardor de ojos.</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Imgs/cargafri2.png" class="d-block w-100" alt="..." width=1198 height=390>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><b>¿SABÍAS QUÉ?</b></h5>
+                            <p><b>Reducen el colesterol “malo” Los frijoles y otras leguminosas ayudan a bajar los niveles del colesterol “malo” (LDL) en tu cuerpo, consumirlos a diario, beneficiará en gran medida a reducir estos niveles.</b></p>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -123,7 +111,7 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
+                </div></font>
             </div>
 
 
@@ -160,9 +148,9 @@
                 <div class="card "> <!-- color a la tarjeta            border-warning text-white-->
                     <img src="../Imgs/logoU4.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Estudiantes UDEC</h5>
+                        <h5 class="card-title"><b>Estudiantes UDEC</b></h5>
                         <p class="card-text">Somos un equipo de trabajo conformado por estudiantes de Ingeniería de Sistemas de la Universidad de Cundinamarca sede de 
-                            Fusagasugá, actualmente curzamos sexto semestre.</p>
+                            Fusagasugá, actualmente curzamos sexto semestre. A través de esta propuesta pretendemos apropiarnos de nuestro rol como ingeniros de sistemas dentro de la sociedad y así mismo aportar nuestro granito de arena a diversos espacios como lo es el sector agrícola.</p>
                     </div>
                     <div class="card-footer ">
                         <small class="text-muted">Última actualización: 02 de Noviembre del 2020</small>
@@ -171,7 +159,7 @@
                 <div class="card">
                     <img src="../Imgs/Fusa.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Vereda Batán Bajo - Fusagasugá</h5>
+                        <h5 class="card-title"><b>Vereda Batán Bajo - Fusagasugá</b></h5>
                         <p class="card-text">Esta 1ra versión del proyecto se centró en la zona rural de Fusagasugá ubicada en la Vereda Batán Bajo, zona
                             donde es común que los campesinos en su mayoria cultiven Mora y Fríjol; por lo cual decidimos tomar estos cultivos como referencia.</p>
                     </div>
@@ -182,11 +170,11 @@
                 <div class="card">
                     <img src="../Imgs/campesino.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <h5 class="card-title"><b>Destacar el papel de la agricultura en nuestra cotidianidad</b></h5>
+                        <p class="card-text">Pretendemos destacar la importancia de la agricultura y las personas que ejercen diariamente esta labor. Por tal razón la información plasmada en este aplicativo es cimentada con conocimienos de agricultores nativos de la región.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small> 
+                        <small class="text-muted">Última actualización: 02 de Noviembre del 2020</small> 
                     </div>
                 </div>
             </div>
@@ -206,7 +194,7 @@
                     <div class="col-md-6" style= "margin:50px 0;"> 
                         <br><br><br>
                         <font color="Olive" face="Century Gothic,arial" >
-                        <h2 class="text-center"><b>Misión</b>  </h2></font>
+                        <h2 class="text-center"><b>Misión</b></h2></font>
                         <h5 class="text-center">
                             Crear un aplicativo web que intervenga como una herramienta de apoyo para agricultores, profesionales del agro o personas que deseen incursionar en este medio; teniendo en cuenta variables como características del cultivo, plagas, productos recomendados, clima y demás elementos relacionados a los cultivos a profundizar (Mora y fríjol). 
                         </h5>
@@ -219,7 +207,7 @@
                         <br><br><br>
                         <h2 class="text-center"><b>Visión</b>  </h2></font>
                         <h5 class="text-center">
-                            Se pretende que el aplicativo web Agrotech tenga un mayor alcance, haciendo partícipes cultivos no solo del municipio de Fusagasugá sino de la región del Sumapaz, generando una mayor cobertura de la propuesto para así mismo adquirir un papel cada vez mas relevante en la zona. 
+                            Se pretende que el aplicativo web Agrotech tenga un mayor alcance, haciendo partícipes cultivos no solo del municipio de Fusagasugá sino de la región del Sumapaz, generando una mayor cobertura de la presenta propuesta, para así mismo adquirir un papel cada vez mas relevante en la zona. 
                         </h5>
 
                     </div>
